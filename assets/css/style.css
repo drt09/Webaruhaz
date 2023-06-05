@@ -5,3 +5,12 @@
 #kosar{
     text-align: right;
 }
+
+.me-15{
+    margin-right: 15px!important; 
+}
+
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+  }
