@@ -1,3 +1,8 @@
+.body
+{
+  background:url('hatter1.jpg')
+}
+
 #logo{
     width: 20em;
 }
@@ -13,7 +18,7 @@
 sub {
     vertical-align: sub;
     font-size: smaller;
-  }
+}
 
 table img{
     width: 15em;

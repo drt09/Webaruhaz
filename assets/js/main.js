@@ -1,5 +1,5 @@
-var bnumber = document.getElementById("item-counter").innerHTML
-var fn = document.getElementById("fn1").value
+var bnumber = document.getElementById("item-counter")
+var fn = document.getElementById("fn")
 
 var cv = document.getElementById("checkbox-v").checked
 var sznev = document.getElementById("nevszamlazas").innerHTML
@@ -11,12 +11,9 @@ var szaltlp = document.getElementById("Tlpszallitas")
 
 function BasketAdd()
 {
-    for (let i = 0; i < fn; i++) 
+    for (let i = 0; i < fn.value; i++)
     {
-        bnumber = i
+        bnumber.innerHTML += i+1
     }
-}
 
-if (cv) {
-    szalnev = sznev
 }
