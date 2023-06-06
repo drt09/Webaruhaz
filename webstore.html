@@ -27,16 +27,57 @@
             </div>
           </header>
         <div class="row items">
-            <div class="col-md-6">a</div>
-            <div class="col-md-6">a</div>
+            <div class="col-md-12">
+              <table>
+                <tr>
+                  <td><img src="assets/images/food1.jpg" alt=""><p>Gourmet Gold<br><span>1<button>Vásárlás</button>1</span></p></td>
+                  <td><img src="assets/images/food2.jpg" alt=""><p>Happy Dog NaturCroq<br><span>1<button>Vásárlás</button>1</span></p></td>
+                  <td><img src="assets/images/food3.jpg" alt=""><p>kitekat Markt-Mix<br><span>1<button>Vásárlás</button>1</span></span></td>
+                </tr>
+                <tr>
+                  <td><img src="assets/images/food4.jpg" alt=""><p>Happy Dog NaturCroq Beef<br><span>1<button>Vásárlás</button>1</span></p></td>
+                  <td><img src="assets/images/food5.jpg" alt=""><p>Pedigree Vital<br><span>1<button>Vásárlás</button>1</span></p></td>
+                  <td><img src="assets/images/food6.jpg" alt=""><p>Royal Canin<br><span>1<button>Vásárlás</button>1</span></p></td>
+                </tr>
+              </table>
+            </div>
+            
         </div>
         <div class="row checkout">
-            <div class="col-md-6">a</div>
-            <div class="col-md-6">a</div>
+            <div class="col-md-6">
+              <h1>Számlázás</h1>
+              <input type="text" id="nevszamlazas">
+              <input type="text" id="irszszamlazas"><input type="text" id="Tlpszamlazas">
+              <input type="text" id="utca">
+              <input type="email">
+              <input type="number">
+            </div>
+            <div class="col-md-6">
+              <h1>Szállítás</h1>
+              <input type="text" id="nevszallitas">
+              <input type="text" id="irszszallitas"><input type="text" id="Tlpszallitas">
+              <input type="checkbox"> Megegyezik a számlázási címmel
+            </div>
         </div>
         <div class="row order">
-            <div class="col-md-6">a</div>
-            <div class="col-md-6">a</div>
+            <div class="col-md-6">
+              <h1>Fizetés</h1>
+              <input type="radio" id="plussz"> Utánvét (490 Ft)
+              <input type="radio"> Kártyás fizetés
+              <input type="radio"> Banki utalás
+              <button>Megrendelés</button>
+            </div>
+            <div class="col-md-6">
+              <h1>Szállítási díj</h1>
+              <p id="szallitasidij"></p>
+            </div>
+        </div>
+        <div class="row basket">
+            <div class="col-md-12"><h1>Kosár</h1>
+              <table>
+
+              </table>
+            </div>
         </div>
     </div>
 </body>
