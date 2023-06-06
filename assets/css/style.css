@@ -28,3 +28,23 @@ table td{
     padding: 30px;
     text-align: center;
 }
+
+.inputwidth{
+    margin-top: 5px;
+    width: 2.5em;
+}
+
+.buttonwidth{
+    margin-left: 5px;
+    width: 5em;
+    margin-bottom: 5px;
+}
+
+.checkout input{
+    padding: 10px;
+    margin: 10px;
+}
+
+.order input{
+    margin: 10px;
+}
