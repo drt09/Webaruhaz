@@ -88,3 +88,9 @@ table td{
 .orderbutton{
     margin-left: 2em;
 }
+
+.GG:hover{
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+    border-radius: 8px;
+}
