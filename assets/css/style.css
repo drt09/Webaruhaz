@@ -1,8 +1,3 @@
-.body
-{
-  background:url('hatter1.jpg')
-}
-
 #logo{
     width: 20em;
 }
@@ -37,19 +32,59 @@ table td{
 .inputwidth{
     margin-top: 5px;
     width: 2.5em;
+    box-sizing: border-box;
+    border-radius: 8px;
 }
 
 .buttonwidth{
     margin-left: 5px;
     width: 5em;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .checkout input{
     padding: 10px;
     margin: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 .order input{
     margin: 10px;
+}
+
+.button-1 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #48ff00;
+  color: rgb(255, 255, 255);
+}
+
+.orderbutton{
+    margin-left: 2em;
 }
